@@ -1,0 +1,22 @@
+#content{
+    width: 900px;
+    height: 800px;
+    display: block;
+    background-image: url(../images/fond2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 -400px;
+}
+
+#mario{
+    position: absolute;
+    top: 480px;
+    left: 150px;
+    width: 80px;
+}
+
+#piece{
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    width: 20px;
+}

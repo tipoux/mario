@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+       
+        
+        <audio src="sons/Mario.mp3" type="audio/mp3" autoplay loop></audio>
+        
+        <audio preload="auto" id="son">
+            <source src="sons/saut.wav" type="audio/wav">
+<!--            <source src="sons/Yahou !.wav" type="audio/wav">-->
+        </audio>
+        
+        <audio preload="auto" id="son-piece">
+            <source src="sons/piece.wav" type="audio/wav">
+        </audio>
+        
+        <div id="content">
+            <img id="mario" name="mario" src="images/mario-move.gif">
+            <img id="piece" name="piece" src="images/piece.gif">
+        </div>
+        
+        
+        <script src="jquery/dist/jquery.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
